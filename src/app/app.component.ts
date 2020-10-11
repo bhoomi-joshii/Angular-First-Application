@@ -6,12 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  name:string = 'Bhoomi';
-
-  constructor(){
-    this.changeName('Bhoomiiii');
-  }
-  changeName(name:string):void{
-    this.name=name;
-  }
+  title = 'angular-cross-todolist';
 }
